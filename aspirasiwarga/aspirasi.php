@@ -175,7 +175,7 @@ $aspirasi = query("SELECT a.id_aspirasi, a.judul_aspirasi, a.isi_aspirasi, a.tan
                       </div>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                        <a href="http://localhost/siwarga-PHP/isi_aspirasi.php?id=<?= $a['id_aspirasi']?>" class="btn btn-sm btn-outline-secondary">View</a>
+                        <a href="http://localhost/aspirasiwarga/isi_aspirasi.php?id=<?= $a['id_aspirasi']?>" class="btn btn-sm btn-outline-secondary">View</a>
                         </div>
                         <small class="text-muted"><?=$a['tanggal']?></small>
                     </div>
