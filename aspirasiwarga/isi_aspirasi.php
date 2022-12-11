@@ -263,7 +263,7 @@ $feedback = query("SELECT id, feedback, isAdmin, created_at FROM feedbacks
                     <button type="submit" class="btn btn-primary mt-4 btn-rounded float-end" name="send">Send</button>
                 </form>
                 </ul>
-                <a id="back" href="http://localhost/siwarga-PHP/aspirasi.php" class="btn btn-primary mt-4">Back</a>
+                <a id="back" href="http://localhost/aspirasiwarga/aspirasi.php" class="btn btn-primary mt-4">Back</a>
             </div>
             </div>
     </div>
