@@ -46,7 +46,16 @@ INSERT INTO `admin` (`id`, `username`, `password`, `isAdmin`) VALUES
 --
 -- Table structure for table `aspirasi`
 --
-
+CREATE TABLE `aspirasi` (
+  `id_aspirasi` int(11) NOT NULL,
+  `id_penduduk` int(11) DEFAULT NULL,
+  `judul_aspirasi` varchar(255) DEFAULT NULL,
+  `lokasi` text DEFAULT NULL,
+  `isi_aspirasi` text DEFAULT NULL,
+  `id_kategori` int(11) DEFAULT NULL,
+  `tanggal` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `status_aspirasi` tinyint(1) NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `aspirasi`
